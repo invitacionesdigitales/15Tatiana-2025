@@ -71,9 +71,21 @@ function diaEventoAhora () {
       icon: 'success',
       html:
         'INGRESÁ' +
-        '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.469450959886!2d-68.7496958!3d-32.938613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e0bc59dbc0a8b%3A0xa8b14a97348fd0a9!2sOballes%20Eventos!5e0!3m2!1ses-419!2sar!4v1708785369026!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
+        '<iframe src="https://www.google.com/maps/embed?pb=!4v1750207616019!6m8!1m7!1sFEtUQml512S3_U_1kd_T8A!2m2!1d-34.79911807240489!2d-58.23103258681984!3f60.109318983555795!4f0!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
         'Podes ampliar el mapa',
         
         
     })
   });
+  function exito(){
+    Swal.fire({
+        title: '<strong>VER LA UBICACION<u></u></strong>',
+        icon: 'success',
+        html:
+          'INGRESÁ' +
+          '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3276.848144782799!2d-58.186617!3d-34.784597999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a326212a9a7c1d%3A0x8cd6486615f2c1ba!2sC.%2038%20A%20%26%20C.%20149%20A%2C%20B1861%20Platanos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1750207683862!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>' +
+          'Podes ampliar el mapa',
+          
+          
+      })
+}
